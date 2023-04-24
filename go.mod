@@ -5,7 +5,10 @@ go 1.20
 require (
 	github.com/go-chi/jwtauth v1.2.0
 	github.com/spf13/viper v1.15.0
+	github.com/stretchr/testify v1.8.2
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+	gorm.io/driver/sqlite v1.5.0
+	gorm.io/gorm v1.25.0
 )
 
 require (
@@ -14,9 +17,6 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/mattn/go-sqlite3 v1.14.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/stretchr/testify v1.8.2 // indirect
-	gorm.io/driver/sqlite v1.5.0 // indirect
-	gorm.io/gorm v1.25.0 // indirect
 )
 
 require (
